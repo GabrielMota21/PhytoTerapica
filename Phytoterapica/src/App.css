@@ -1,0 +1,15 @@
+.containerApp {
+     width: 95%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+.containerApp span {
+    color: #98B020;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,0 +1,81 @@
+.lancamentosContainer {
+    height: 525px;
+    width: 100%;
+}
+
+.lancamentosH1 {
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 50px 0;
+    color: #4b4b4b;
+}
+
+.lancamentosContainerBox {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.lancamentosBox {
+    width: 284px;
+}
+
+.lancamentosImg1 {
+    width: 284px;
+    height: 284px;
+    background: url(../img/cubeba.jpg);
+    background-size: cover;
+}
+
+.lancamentosImg2 {
+    width: 284px;
+    height: 284px;
+    background: url(../img/baleeira.jpg);
+    background-size: cover;
+}
+
+.lancamentosImg3 {
+    width: 284px;
+    height: 284px;
+    background: url(../img/espuma.jpg);
+    background-size: cover;
+}
+
+.lancamentosImg4 {
+    width: 284px;
+    height: 284px;
+    background: url(../img/dragao.jpg);
+    background-size: cover;
+}
+
+.lancamentosH2 {
+    font-size: 16px;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+
+span {
+    color: #98b020;
+    font-weight: bold;
+}
+
+.lancamentosDesc {
+    display: block;
+    color: #4b4b4b;
+    clear: left;
+}
+
+.price { 
+    float: left;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+.esgotado {
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: #4b4b4b;
+    float: left;
+    color: #fff;
+}
